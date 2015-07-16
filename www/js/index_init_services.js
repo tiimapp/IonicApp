@@ -83,12 +83,10 @@ var app_q = angular.module('myApp', ['ionic', 'ngResource']).config(['$controlle
 
 
                    
-        }, {
-            timeout: 150
         }).success(function (data) {
 
                     
-            $timeout.cancel(timeoutPromise);
+         
             console.log(data);   
             return data;
 
@@ -117,7 +115,7 @@ app_q.controller('HomeTabCtrl', ['$scope', '$resource', 'employeeService', funct
         $scope.m = employeeService.getEmployees();
         $scope.m.then(
             function (answer) {
-                $scope.u = answer.data.WelCome;
+                $scope.u = answer;
             },
             function (error) {
                 // report something

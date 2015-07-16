@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "appDesigner",
       "projectGuid": "05668583-c012-4c45-8f43-4ed2142fb199",
-      "lastModifiedDate": 1436431349838,
+      "lastModifiedDate": 1437054492277,
       "creationDate": 1435904404243
     },
     "XDK-app-designer": "true",
@@ -47,7 +47,7 @@
           "android-targetSdkVersion": "19",
           "android-installLocation": "auto"
         },
-        "isActive_": false,
+        "isActive_": true,
         "appName_": "IonicApp",
         "appID_": "xdk.intel.blank.ad.template.crosswalk",
         "appAccess_": [
@@ -74,7 +74,8 @@
         "preferences_": {
           "android-minSdkVersion": "10",
           "android-targetSdkVersion": "19",
-          "android-installLocation": "auto"
+          "android-installLocation": "auto",
+          "Fullscreen": true
         },
         "isActive_": true,
         "appName_": "IonicApp",
@@ -131,7 +132,7 @@
           "windows-publisher-display-name": "",
           "windows-publisher-id": ""
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "IonicApp",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": [
